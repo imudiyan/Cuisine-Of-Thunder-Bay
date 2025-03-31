@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+    margin : 0;
+    padding :0;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body {
+    
+    background-position: center;
+    background-size: auto; 
+    background-image: url("images/slider-img-1.jpg");
+    background-repeat:space;
+    opacity: 90%;
+    }
+  
+  h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+  .grid-container {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-auto-rows: minmax(5em, auto)  ;
+    grid-gap: 3em;
+    justify-content: center;
+    grid-auto-flow: dense;
+  }
+  
+  
+  .logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: start;
+    
+  }
+
+  .logDeco {
+    float: left;
+    width: 15em;
+    height: auto;
+    margin-left: 4em;
+    
+  }
+  
+  .header {
+  
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+   
+  }
+  
+  .welcome {
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+    align-self: center;
+    
+    
+    
+  }
+  .form {
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+    align-self: center;
+  
+  }   
+  
+  .footer {
+    grid-column: 1 / -1;
+   
+  }
+  
+  header {
+    text-align: center;
+  }
+
+  .titletxt{
+    margin-bottom: 20px;
+     color:white;
+     font-family: 'Allura', cursive;
+     text-transform: uppercase;
+     font-size: 38px;
+     word-spacing: 25px;
+     letter-spacing: 5px;
+ }
+ 
+ h2 span {
+    color:maroon ;
+}
+  
+
+  
+    fieldset {
+      height: 100%;
+      width: 60%;
+      margin: 10%;
+      text-align: center;
+      background-color:rgb(189, 172, 172);
+      padding-bottom: 1em;
+      padding-top: 1em;
+      margin-left: auto;
+      margin-right: auto;
+      opacity: 75%;
+    }
+
+    .formAlignment {
+        padding-left: 0.5em;
+        font-size: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+      
+    }
+
+  
+    label.radio {
+      cursor: pointer;
+      overflow: visible;
+      display: inline-block;
+      position: relative;
+      font-size: 1.2em;
+      
+    }
+
+    div input {
+        border-radius: 0.3em;
+        padding: 0.3em 0.3em 0.3em 0.3em ;
+    }
+  
+    
+    hr {
+      width: 80%;
+      opacity: 70%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    a:hover{
+      
+      color: red
+    }
+  
+    header {
+      color: white;
+      padding-top: 1em;
+      padding-bottom: 0.1em;
+    }
+  
+    .RegImg {
+      width: 20em;
+      height: 10em;
+      opacity: 100%;
+    }
+  
+    
+    button {
+        color: white;
+        background: maroon;
+        border-radius: 0.3em;
+        box-shadow: 0.2em 0.2em 0.2em #000000;
+        /*padding: 0.1em 0.2em 0.1em 0.2em; */
+        width: 9em;
+        height: 3em;
+        font-size: 1.2em;
+        opacity: 80%;
+            
+    } 
+
+    .header p {
+        color: white;
+        text-align: center;
+        margin-top: 0.2em;
+    }
+  
+     button:hover {
+       opacity: 100%;
+       color: white;
+    }
+  
+    .logDeco {
+        float: left;
+        width: 15em;
+        height: auto;
+        margin-left: 4em;
+    }
+
+    .butn{
+
+      float: right;
+      font-size: 1em;
+      color: #fff;
+      display:block;
+      background: maroon;
+      padding: 10px 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      transition: 0.5s;
+      margin-top: 0px;
+        
+  }
+  
+
+    @media (max-width:656px)
+    {
+        .logo img{
+    
+            float: left;
+            width: 18em;
+            height: auto;
+            margin-left: 3em;
+            margin-top: 1em;
+            
+        }
+    
+        .grid-container {
+            width: fit-content;
+            font-size: 70%;
+        }
+    }
+
+
+    

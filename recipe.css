@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1 span{
+    color: maroon;
+    font-weight: 1200;
+    font-size: 1.5em;
+    font-family: 'Allura', cursive;
+    
+   }
+.Recipe .title{
+    margin-top: 30px;
+}
+h1.titletxt{
+   margin-bottom: 20px;
+	color:black;
+	font-family: 'Allura', cursive;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+.btn {
+    align-items: center;
+    font-size: 1em;
+    color: #fff;
+    display:inline-block;
+    background: maroon;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.Recipe .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    font-family: 'Allura', cursive;
+    font-size: 1.5em;
+    font-weight: 1200;
+} 
+.Recipe{
+    text-align: center;
+}
+.Recipe p.content{
+    font-size: 2em;
+    font-weight: 5000;
+}
+.Recipe .content .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08)
+
+}
+.Recipe .content .box .imgbx{
+    position:relative;
+    width: 100%;
+    height: 300px;
+
+}
+button{
+    background-color: maroon;
+    color: white;
+    align-items: center;
+    padding: 5px 5px;
+    
+}
+.Recipe .content .box .imgbx img{
+    position: absolute
+;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.Recipe .content .box .text{
+    padding: 15px 0 5px;
+}
+.Recipe .content .box .text h3{
+font-weight: 1200;
+font-size: 1em;
+color: #111;
+text-align: center;
+font-family: 'Allura', cursive;
+}
+.logo img{
+
+    float: left;
+    width: 15em;
+    height: auto;
+    margin-left: 1em;
+    
+}
+@media (max-width:991px)
+{
+    
+        .Recipe .content{
+            margin-top: 20px;
+        }
+        .Recipe .content .box{
+            margin: 10px;
+
+        }
+        .Recipe .content .box .imgbx{
+            height: 260px;
+        }
+        .title{
+            text-align: center;
+        }
+        .titletext{
+            font-size: 1.8em;
+            line-height: 1.5em;
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+        .logo img{
+
+            float: left;
+            width: 4em;
+            height: auto;
+            margin-left: 1em;
+            
+        }
+}
+@media(max-width:600px)
+{
+    .Recipe p.content{
+    
+        font-size: 1em;
+        font-weight: 5000;
+    } 
+    h1 span{
+        font-size: 1em;
+        
+        
+       }  
+       .Recipe .title{
+        margin-top: 40px;
+    }
+    .logo img{
+
+        float: left;
+        width: 4em;
+        height: auto;
+        position: fixed;
+        top:0;
+        
+    }
+}

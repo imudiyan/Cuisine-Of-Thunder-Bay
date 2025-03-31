@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta char="viewport" content="width=device-width, initial-scale-1.0">
+      <title>Sign Up</title>
+      <link rel="stylesheet" type="text/css" href="Sign_up_style.css">
+      <link href="images/CTB.png" rel="icon">
+      <link href="images/CTB.png" rel="CTB" >
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="logo">
+                <img class="logDeco" src="images/Logo_final_transparent.png" alt="logo">
+            </div>
+            <div class="header">
+                <br>
+                <h2 class="titletxt"><span>S</span>ign Up</h2>
+                <p>Please fill in this form to create an account.</p>
+                <Br>
+            </div>
+            <div class="form">
+                <Fieldset>
+                    <div> 
+                      <!--<label class="formAlignment" for ="email" > <i class="fa fa-envelope"></i> </label> -->
+                      <input class="formAlignment" type="text" placeholder="Email" name = "email" id = "email" required>
+                      </br>
+                      <!--<label for ="username" > <b>username</b> </label> -->
+                      <input class="formAlignment" type="text" placeholder="Username" name = "username" id = "username" required>
+                      </br>
+                      <!--<label for ="password" > <b>Password</b> </label> -->
+                      <input class="formAlignment" type="password" placeholder="Password" name = "password" id = "password" required>
+                      </br>
+                      <!--<label for ="confirm_password" > <b>Confirm Password</b> </label> -->
+                      <input class="formAlignment" type="password" placeholder="Confirm Password" name = "confirm_password" id = "confirm_password" required />
+                      </BR>
+                      <input class="formAlignment" type="radio" value="None" id="male" name="gender" checked/>
+                      <label for="male" class="radio" chec>Male</label>
+                      <input type="radio" value="None" id="female" name="gender" />
+                      <label for="female" class="radio">Female</label>
+                      <hr>
+                    </div>              
+                    <div>
+                      <br>
+                      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+                      <!--<a href="/home.html"><img class="RegImg" src="/images/Register-PNG.png" alt="register"> </a> -->
+                    </BR>
+                      <button onclick="document.location ='registerhome.html'" > Register </button>
+                    </div>
+                    <div>
+                    </BR>
+                      <p>Already Have an Account?</p>
+                      <a href="SignIn.html"> <b>Sign In</b></a>
+                    </div>
+                    <div>      
+                    </div>
+                </Fieldset>
+            </div>
+            <div class="footer">                
+            </div>
+        </div>        
+    </body>
+</html>

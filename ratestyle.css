@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:url("images/slider-img-2.jpg");
+  background-size: cover;
+  font-family: "Monserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.panel-container {
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  font-size: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.panel-container strong {
+  line-height: 20px;
+  color: #fff;
+}
+
+.panel-container p {
+  margin: 25px 0;
+  line-height: 20px;
+}
+
+.ratings-container {
+  display: flex;
+  margin: 20px 0;
+}
+
+.rating {
+  cursor: pointer;
+  flex: 1;
+  padding: 20px;
+  margin: 10px 5px;
+}
+
+.rating.active,
+.rating:hover {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: grey;
+}
+
+.rating img {
+  width: 40px;
+}
+
+.rating small {
+  color: white;
+  display: inline-block;
+  margin: 10px 0 0;
+}
+
+.rating.active small,
+.rating:hover small {
+  color:white;
+  
+}
+
+.btn {
+  background-color: #302d2b;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px 30px;
+}
+
