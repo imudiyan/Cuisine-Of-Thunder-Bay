@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta char="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Add recipe</title>
+    <link rel="stylesheet" type="text/css" href="Addrecipe.css">
+    <link href="images/CTB.png" rel="icon">
+    <link href="images/CTB.png" rel="CTB" >
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img class="logDeco" src="images/Logo_final_transparent.png" alt="logo">
+            </div>
+            <div class="banner">
+                <h2 class="titletxt"><span>A</span>dd Your Recipe here</h2>
+                <!--<ul class="navigation">
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li>  <a href="Recipe.html">Recipe</a> </li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="team.html">Our Team</a></li>                    
+                </ul> -->
+            </div>
+            
+            <div class="first">
+                <a href="registerhome.html" class='butn'>Home</a>
+            </div>
+        </div>        
+        <div class="addimage">
+            <form method="POST"></form>
+                <div class="box"> Add image </div>
+                    <label name="addimage" id="addimage">Add image</label>
+                    <input type="file" for ="addimage">            
+                </div>
+                <div class="recipearea">                    
+                    <div class="recipeitem recipename">
+                        <label for = "recipename" required>Recipe Name <em>(Required)</em></label> <br/>
+                        <textarea id="recipename" name="recipename" width = 100% cols="60" ></textarea>
+                    </div>
+                    <div class="recipeitem description">
+                        <label for = "description" required>Description <em>(Required)</em></label> <br/>
+                        <textarea id="recipename" name="description" cols="60"></textarea>
+                    </div>
+                    <div class="recipeitem ingredients ">
+                        <label for = "ingredients " required>Ingredients <em>(Required)</em></label> <br/>
+                        <textarea type="text" id="ingredients" name="ingredients" cols="60" rows="8"></textarea>
+                    </div>
+                    <div class="recipeitem instruction ">
+                        <label for = "instruction " required>Instruction<em>(Required)</em></label> <br/>
+                        <textarea type="text" id="instruction" name="instruction" cols="60" rows="9"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" onclick="document.location ='Recipe.html'">Add</button>           
+                        <button type="reset">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        <div class="footer">
+
+        </div>
+    </div>
+    
+</body>
+</html>

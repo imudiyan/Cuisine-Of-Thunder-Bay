@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1.title{
+	margin-bottom: 20px;
+	color:white;
+	font-family: 'Allura', cursive;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+    
+}
+.logo img{
+
+    float: left;
+    width: 15em;
+    height: auto;
+    margin-left: 1em;
+    
+}
+h1 span{
+ color: maroon;
+ font-weight: 300;
+ font-size: 1.5em;
+}
+body{
+    background-image: url("images/images/slider-img-2.jpg");
+	background-size: cover;
+    
+}
+
+img{
+    float:left;
+    width:500px;
+	height: auto;}
+
+section{
+padding: 100px;
+}
+.row{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 70px;
+}
+.row .col50{
+	position: relative;
+	width:40% ;
+}
+p.content{
+	color: white;
+}
+@media (max-width:991px)
+{
+	.row{
+		flex-direction: column;
+	}
+	.row .col50{
+		position: relative;
+		width: 100%;
+	}
+	.logo img{
+		float: left;
+width: 5em;
+height: auto;
+margin-left: 1em;
+}
+}
